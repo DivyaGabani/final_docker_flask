@@ -6,4 +6,3 @@ def test_request_index(client):
     response = client.get("/about")
     assert response.status_code == 200
     assert b"Aboutpage" in response.data
-
