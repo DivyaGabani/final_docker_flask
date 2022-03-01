@@ -1,6 +1,6 @@
 # Project Setup
 
-[![Run Tests, Build Dockerfile, Run on Heroku](https://github.com/kaw393939/docker_flask/actions/workflows/test-build-deploy.yml/badge.svg)](https://github.com/kaw393939/docker_flask/actions/workflows/test-build-deploy.yml)
+[![Development Workflow](https://github.com/DivyaGabani/final_docker_flask/actions/workflows/dev.yml/badge.svg)](https://github.com/DivyaGabani/final_docker_flask/actions/workflows/dev.yml)
 
 ## Setting up CI/CD
 
@@ -15,11 +15,11 @@
 6. Add repository settings for action secrets for DOCKER_USERNAME, DOCKER_PASSWORD, HEROKU_API_KEY (put the appropriate
    values in)
 
-### In this file .github/workflows/test-build-deploy.yml
+### In this file .github/workflows/dev.yml
 
-6. Change line 45 to have your docker repo address in: .github/workflows/test-build-deploy.yml
-7. change lines 61 to have your heroku app name in: .github/workflows/test-build-deploy.yml
-8. change line 62 to have your heroku email in: .github/workflows/test-build-deploy.yml
+6. Change line 45 to have your docker repo address in: .github/workflows/dev.yml
+7. change lines 61 to have your heroku app name in: .github/workflows/dev.yml
+8. change line 62 to have your heroku email in: .github/workflows/dev.yml
 
 9. change line 19 of readme.md (this file) to have the link to your heroku app (click on the app and then there is a
    button to open the app in the upper right)  This will not work until it successfully deploys
@@ -40,3 +40,4 @@
 
 [My App](https://drg5-dockerflask.herokuapp.com/
 )
+
